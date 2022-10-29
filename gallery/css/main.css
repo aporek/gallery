@@ -1,0 +1,32 @@
+* {
+padding: 0;
+margin: 0;
+-webkit-box-sizing: borger-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+	background-color: #4FA095;
+
+}
+ .main {
+ 	background-color: #BAD1C2;
+ 	display: flex;
+ 	width: 95%;
+ 	max-width: 1000px;
+ 	margin: auto;
+ 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+ 	flex-wrap: wrap;
+ }
+
+ .item {
+ 	max-height: 260px;
+ max-width: 490px;
+ width: calc(50% - 10px);
+ height: calc(95vw / 2 / 16 * 9) ;
+
+ background-color: #153462;
+ margin: 5px;
+
+ }
