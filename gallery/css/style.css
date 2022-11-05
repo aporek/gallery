@@ -1,7 +1,9 @@
 .img-box {
 column-count: 4;
-column-gap: 0;
-
+column-gap: 4px;
+width: 80%;
+max-width: 1400px;
+margin: 0 auto;
 }
 img{
 	max-width: 99%;
@@ -10,4 +12,18 @@ img{
 	margin: 3px;
 
 }
+img + img {
+margin: 3px;
 
+}
+
+.img-link {
+	display: block;
+}
+.img-link + .img-link {
+margin: 3px;
+
+}
+body {
+	background-color: #A66CFF
+}
