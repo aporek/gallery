@@ -23,7 +23,7 @@ body {
  .item {
  	max-height: 260px;
  max-width: 490px;
- width: calc(90vw - 10px);
+ width: calc(90vw / 2 - 10px);
  height: calc(95vw / 2 / 16 * 9) ;
 
  background-color: #153462;
@@ -53,6 +53,36 @@ font-family: 'Rubik', sans-serif;
     z-index: 10;
     box-shadow: 0 0 200px 30px rgba(0, 0, 0, 0.4);
 } 
+
+@media all and (max-width: 1200px) {
+.item {
+max-width: initial;
+max-height: initial;
+width: 95vw;
+height: calc(95vw / 16 * 9);
+
+}
+.img-link {
+    margin: 5px 0;
+    }
+
+}
+@media all and (max-width: 768px) {
+.item {
+max-width: initial;
+max-height: initial;
+width: 95vw;
+height: calc(95vw / 16 * 9);
+
+}
+.img-link {
+    margin: 5px 0;
+    }
+
+}
+
+
+
 
 
 
